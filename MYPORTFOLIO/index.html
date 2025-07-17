@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="newjs.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio Website</h1>
+    <p>You can know more about me and my work.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#courses">Courses</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="myphoto.jpg" alt="Rishith's Photo" class="profile-pic" />
+    </div>
+    <p>Hello! My name is <strong>RISHITH</strong>, and I am a passionate web developer who loves creating modern and responsive websites. I am constantly looking for new opportunities to grow my skills and help others achieve their digital goals.</p>
+    <button onclick="showMoreInfo()">More About Me</button>
+    <p id="more-info" style="display: none; margin-top: 15px;">
+      I am currently pursuing my B.Tech in Computer Science and Engineering. I actively participate in hackathons and coding competitions and enjoy learning new technologies like AI and cloud computing.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">HTML</div>
+      <div class="skill-item">CSS</div>
+      <div class="skill-item">JavaScript</div>
+      <div class="skill-item">C</div>
+      <div class="skill-item">C++</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Engineering E-COMMERCE WEBSITE - Web Technology</h3>
+      <p>Developed a dynamic E-commerce platform using HTML, CSS, JavaScript, and PHP for seamless product browsing, user authentication, and secure transactions. Integrated MySQL database for managing product listings, customer data, and order processing with complete CRUD operations and optimized query handling. Implemented a responsive UI for an enhanced user experience across devices, along with secure payment gateway integration for smooth online purchases.</p>
+    </div>
+
+    <div class="project">
+      <h3>Finance Expense Tracker - Python</h3>
+      <p>Developed a Python-based expense tracker to manage spending, set budgets, and visualize financial trends. Used Matplotlib for clear data visualization of expenses and budgeting patterns. Implemented SQLite and CSV handling for efficient data storage and export. Designed a modular and scalable code structure using Object-Oriented Programming (OOP).</p>
+    </div>
+
+    <div class="project">
+      <h3>Bank Management System - C++</h3>
+      <p>Developed a Bank Management System using C++, implementing OOP concepts such as Inheritance, Encapsulation, Polymorphism, and Abstraction for efficient code structure. Designed a secure system for account management, transactions, and customer data handling, ensuring smooth banking operations. Utilized file handling for data persistence and exception handling to improve reliability and security.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" method="POST">
+      <label for="name">Your Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Your Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Your Message:</label><br />
+      <textarea id="message" name="message" required></textarea><br /><br />
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-status" style="margin-top: 10px; color: red;"></p>
+  </section>
+
+  <section id="resume">
+    <h2>My Resume</h2>
+    <div class="container">
+      <header>
+        <h1>LAKSHMI RISHITH REDDY MANNEM</h1>
+        <p>Email: lakshmirishithreddy_mannem@srmap.edu.in | Phone: 6303746736 | LinkedIn: Lakshmi Rishith Mannem.linkedin</p>
+      </header>
+
+      <section class="contact-info">
+        <h2>Contact Information</h2>
+        <ul>
+          <li>Email: lakshmirishithreddy_mannem@srmap.edu.in</li>
+          <li>Phone: 6303746736</li>
+          <li>LinkedIn: Lakshmi Rishith Mannem.linkedin</li>
+        </ul>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Python, Java</li>
+          <li>Web Development</li>
+          <li>Project Management</li>
+        </ul>
+      </section>
+
+      <section class="Education">
+        <h2>Education</h2>
+        <ul>
+          <li>B Tech 3rd year in CSE , SRM AP UNIVERSITY CGPA: 9.39</li>
+          <li>Intermediate Board education , NARAYANA JUNIOR COLLEGE - 95.1%</li>
+          <li>SSC , NARAYANA HIGH SCHOOL - 99%</li>
+        </ul>
+      </section>
+
+      <section class="Hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Karate</li>
+          <li>Reading Self Help books</li>
+          <li>Cycling</li>
+        </ul>
+      </section>
+    </div>
+  </section>
+
+  <section id="courses">
+    <h2>Courses Completed</h2>
+    <ul>
+      <li>C Language</li>
+      <li>C++ language with OOPS</li>
+      <li>Python</li>
+      <li>HTML AND CSS</li>
+      <li>JavaScript</li>
+      <li>SQL and DBMS</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LAKSHMI RISHITH REDDY MANNEM. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
